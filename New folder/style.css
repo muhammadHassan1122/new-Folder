@@ -1,0 +1,246 @@
+.nav-1 {
+    background-color: black !important;
+}
+
+.nav-2 {
+    color: white !important;
+}
+
+.nav-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+
+.nav-4 {
+    background-color: red !important;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.log-pg-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 20vh;
+}
+
+.about {
+    margin-right: 25px;
+}
+
+.about-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-2 {
+    background-color: #F4ECEC !important;
+    color: red;
+    border: none;
+}
+
+.about-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 100%;
+    width: 30%;
+    border: none;
+    margin-top: 1%;
+}
+
+.about-4 {
+    margin-right: 25px;
+    padding-top: 75px;
+}
+
+.about-6 {
+    margin-bottom: 25px;
+}
+
+.about-6:hover {
+    background-color: white !important;
+    -webkit-box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+}
+
+.about-9 {
+    margin-top: 25px;
+}
+
+.about-10 {
+    margin-bottom: 25px;
+}
+
+.about-10:hover {
+    background-color: white !important;
+    -webkit-box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+}
+
+.about-13 {
+    margin-top: 20px;
+}
+
+.about-15 {
+    margin-bottom: 25px;
+}
+
+.about-15:hover {
+    background-color: white !important;
+    -webkit-box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+}
+
+.about-19 {
+    margin-top: 25px;
+}
+
+.about-20 {
+    margin-bottom: 25px;
+}
+
+.about-20:hover {
+    background-color: white !important;
+    -webkit-box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 8px 15px -11px rgba(0, 0, 0, 0.75);
+}
+
+.Service-1 {
+    margin-top: 5%;
+}
+
+.service-2:hover {
+    color: #e84545;
+    transform: 1s;
+    opacity: 1;
+    z-index: 20;
+}
+
+.feature-1 {
+    margin-top: 10%;
+}
+
+.feature-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.feature-3 {
+    height: 40px;
+    width: 35%;
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+}
+
+.feature-4 {
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.feature-5 {
+    margin-bottom: 7%;
+}
+
+.port-1 {
+    margin-top: 7%;
+}
+
+.port-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 5px;
+}
+
+.port-3 {
+    margin-top: 4%;
+    border-radius: 50px;
+    width: 60px;
+    height: 28px;
+    background-color: #E84545;
+    color: white;
+    text-align: center;
+}
+
+.port-4 {
+    margin-top: 4%;
+    border-radius: 50px;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+
+}
+
+.port-4:hover {
+
+    background-color: #E84545;
+    color: white;
+    text-align: center;
+}
+
+.port-5 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+
+}
+
+.image-port:hover {
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0.7;
+}
+
+.image-port:hover {
+    transform: scale(1);
+}
+
+.image-port .port-6 {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 3rem;
+    transform: translate(100%);
+    transition: .5s ease;
+}
+
+.image-port:hover .port-6 {
+    transform: translateY(0);
+    opacity: 1;
+}
+.Testimonials-1{
+    background-color: silver;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
